@@ -127,7 +127,14 @@ h2, h3 {
 }
 
 .plan__price {
+    font-size: 0.9rem;
     color: var(--clr-neutral-medium);
+}
+
+@media (min-width: 375px) {
+    .plan__price, h2, h3 {
+        font-size: 1rem;
+    }
 }
 
 .plan__change a {
